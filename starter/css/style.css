@@ -16,4 +16,27 @@
     color: #152158!important;
 }*/
 
---#navbar-hover-color: #blueviolet;
+
+
+.navbar a {
+    color: #152158 !important;
+    height: 50px !important;
+    font-weight: 500;
+}
+
+
+
+/*Hero Section*/
+
+#jumbotron {
+    text-align: center;
+}
+
+.hero-banner {
+    position: relative;
+    width: 80%;
+    background: url(./images/hero-banner4);
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+}
