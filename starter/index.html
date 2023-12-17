@@ -38,9 +38,11 @@
               Work
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="web-opt">Website Optimisation</a></li>
-              <li><a class="dropdown-item" href="resp-portf">Responsive Portfolio</a></li>
-              <li><a class="dropdown-item" href="bs-portf">Bootstrap Portfolio</a></li>
+              <li><a class="dropdown-item" href="#web-opt">Website Optimisation</a></li>
+              <li><a class="dropdown-item" href="#resp-portf">Responsive Portfolio</a></li>
+              <li><a class="dropdown-item" href="#bs-portf">Bootstrap Portfolio</a></li>
+              <li><a class="dropdown-item" href="#cons-fin">Console Finances</a></li>
+              <li><a class="dropdown-item" href="#name-pend">Challenge Name Pending</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -61,8 +63,7 @@
  <div class="p-5 mb-4 bg-body-tertiary gradientBackground" style="background-image: url(./images/gradient-dark-blue-futuristic-digital-background.jpg);">
     <div class="py-5">
       <h1 class="display-5 fw-bold">Gabriela Draghici</h1>
-      <br></br> <!--space between header and text-->
-      <p class="col-md-12 fs-4">Front-end bootcamp student learning about and experimenting with HTML, CSS and Javascript. Current Portfolio created with Bootstrap tools.</p>
+      <p class="col-md-12 fs-4">Front-end bootcamp student learning about and experimenting with HTML, CSS and Javascript. Current Portfolio created using Bootstrap tools.</p>
       </div>
  </div>
 </section>
@@ -70,14 +71,14 @@
 <!--Work section with Bootstrap cards-->
 
 <section class="container-fluid work">
- <h2 class="#Work text-center">Work included in Bootcamp</h2>
+ <h2 class="text-center">SAMPLE WORK</h2>
  <div class="work">
   <div class="row">
    <!-- Card 1 -->
-    <div class="card w-100 text-center col-lg-12 col-md-12 col-sm-12">
-      <img src="./images/project1-Horiseon.png" class="card-img-top" alt="">
+    <div class="card w-100 text-center col-lg-12 col-md-12 col-sm-12" id="web-opt">
+      <img src="./images/project1-Horiseon.png" class="card-img-top" alt="Screenshot of website optimisation application with navbar and graphic showing four people in a meeting room discussing over documents on a white table with a wooden wall and a glass door behind them">
       <div class="card-body">
-        <h5 class="card-title">Website Optimisation Challenge</h5>
+        <h5 class="card-title">Website Optimisation</h5>
         <p class="card-text">Horiseon website existing code files refactored to increase the application visibility in search engines and made more accessible for people with disabilities such as the visually impaired. Index.html sections have been given semantic meaning by adding corresponding tags, and all images and graphics have received a description. Style.css file modified to reflect the changes in index.html and restructured to follow the html sequential order, while certain elements have been consolidated.</p>
       </div>
         <ul class="list-group list-group-flush">
@@ -91,87 +92,104 @@
      </div>
   </div>
   
-<!-- <br></br> -->
+<!-- End of row1-->
 
   <div class="row">
     <!-- Card 2 -->
-    <div class="card w-50 h-100 text-center col-lg-6 col-md-6 col-sm-12">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-          <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
+    <div class="card w-50 text-center col-lg-6 col-md-6 col-sm-12" id="resp-portf">
+      <div clas="card h-100"><!--class used to keep cards size equal-->
+          <img src="./images/CSS.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Responsive Portfolio</h5>
+              <p class="card-text">Created a personal portfolio using information gained this week.
+              The header consists of name and a navigation bar linked to the page sections.
+              The banner is an image with a title attached on top.
+              The main section of the page is formed of 3 parts: About me, Work and Contact me. The flex display was used to separate each individual section into 2 columns of unequal sizes. 
+              Then, the Work section information has been structured using the grid display, where each project occupied space on a 2x4 grid. Each image has a heading title describing the project.
+              Last, the contact me section has been created using flexbox display for the 2 main sections (title and content) and then the content has been organised using the flex property again.</p>
+            </div>
+            <div class="card-bottom">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">CSS Flexbox</li>
+                <li class="list-group-item">CSS Grid</li>
+                <li class="list-group-item">Media Queries</li>
+              </ul>
+             <div class="card-body">
+              <a href="https://gabidragh.github.io/Module2Challenge-Responsive-Portfolio/" class="card-link">View Project</a>
+             </div>
+            </div>
+      </div>
     </div>
 
 
  <!-- Card 3 -->
-    <div class="card w-50 h-100 text-center col-lg-6 col-md-6 col-sm-12">
-        <img src="..." class="card-img-top" alt="...">
+    <div class="card w-50 text-center col-lg-6 col-md-6 col-sm-12" id="bs-portf"> 
+        <div clas="card h-100"> <!--class used to keep cards size equal-->
+        <img src="./images/bootstrap.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Bootstrap Portfolio</h5>
+          <p class="card-text">Readme description here.</p>
         </div>
+        <div class="card-bottom">
           <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">UX/Bootstrap</li>
+          <li class="list-group-item">Customising Bootstrap</li>
+          <li class="list-group-item">Custom Webpages</li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <a href="#" class="card-link">View Project</a>
+        </div>
+        </div>
         </div>
     </div>
  </div>
 
-<!-- <br></br> -->
+<!-- End of row2-->
 
  <div class="row">
     <!-- Card 4 -->
-    <div class="card w-50 h-100 text-center col-lg-6 col-md-6 col-sm-12">
-        <img src="..." class="card-img-top" alt="...">
+    <div class="card w-50 text-center col-lg-6 col-md-6 col-sm-12" id="cons-fin">
+        <div clas="card h-100"><!--class used to keep cards size equal-->
+        <img src="./images/javascript.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Website Optimisation</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Console Finances</h5>
+          <p class="card-text">Activity including JavaScript acquired skills of the week. Code created for analysing the financial records of a company. A financial dataset was provided where the code analyses the months included in the dataset, the amount of Profits and Losses, the average of Profit/Losses changes, greatest increses in Profits and greatest decrease in Losses.</p>
         </div>
           <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">Introduction to JavaScript</li>
+          <li class="list-group-item">Arrays and Iteration</li>
+          <li class="list-group-item">RPS Game</li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <a href="#" class="card-link">View Project</a> <!--Placeholder for future project link-->
+        </div>
         </div>
     </div>
 
 
  <!-- Card 5 -->
-    <div class="card w-50 h-100 text-center col-lg-6 col-md-6 col-sm-12">
-        <img src="..." class="card-img-top" alt="...">
+    <div class="card w-50 text-center col-lg-6 col-md-6 col-sm-12" id="name-pend">
+        <div clas="card h-100"><!--class used to keep cards size equal-->
+        <img src="./images/java-objects.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Challenge Name Pending</h5>
+          <p class="card-text">Intermediate JavaScript Challenge description</p>
+          <div class="spinner-border spinner-border-sm" role="status"> <!--Loading spinner added-->
+            <span class="visually-hidden">Loading...</span>
+          </div>
         </div>
           <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">Introduction to Objects</li>
+          <li class="list-group-item">Functions</li>
+          <li class="list-group-item">This Keywords and Methods</li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">View Project</a>
+          <a href="#" class="card-link">View Project</a> <!--Placeholder for future project link-->
+        </div>
         </div>
     </div>
  </div>
- <!-- <br></br>> -->
+ <!-- End of row3 -->
 
 </section>
 

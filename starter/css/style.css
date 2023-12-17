@@ -9,22 +9,13 @@
     line-height: 1.5;
   }*/
 
-  /*Header Section*/
-
- /* nav {
-    background-color: #e8eaf1; opacity: 0.9!important; 
-    color: #152158!important;
-}*/
-
-
 
 .navbar a {
-    color: #152158 !important;
-    height: 50px !important;
+    color: #152158;
+    height: 50px;
     font-weight: 500;
+    font-size: larger;
 }
-
-
 
 /*Hero/Jumbotron Section*/
 
@@ -33,18 +24,28 @@
     color:aliceblue;
 }
 
+.jumbotron p {
+    opacity: 0.7;
+}
+
 .gradientBackground {
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    opacity: 0.85;
+    height: 300px; /*banner image height reduced as auto occupies too much space*/
 }
 
 /*Work Section*/
 
-/*.workSample {
-    padding: 20px 20px 20px 20px;
-}*/
+h2 {
+    margin-bottom: 1.5rem;
+}
 
 .row{
     padding: 5px 10px 5px 10px;
+}
+
+.card-img-top { 
+padding: 10px; /*images padding added so they don't touch the card border at the top*/
+border-radius: 3%; /*small radius added to match card rounded edges*/
 }
