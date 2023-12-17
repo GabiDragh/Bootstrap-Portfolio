@@ -22,7 +22,7 @@
 
 <!--Navigation bar-->
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary"> <!--Navbar from Bootstrap-->
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Front-End Developer</a>
       <!--add button function--><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,19 +53,132 @@
       </div>
     </div>
   </nav>
-  
-<!--Hero Section-->
+  <!--End Navigation bar section-->
 
-<section class="hero-banner">
-<div class="p-5 mb-4 bg-body-tertiary rounded-3" id="jumbotron">
-    <img class="hero-image" src="./images/hero-banner4.jpg">
-     <div class="container-fluid py-5">
+<!--Hero/Jumbotron Section-->
+
+<section class="container-fluid jumbotron"> <!--Hero section including a background image (not ready to see my face on a webpage yet), header and text-->
+ <div class="p-5 mb-4 bg-body-tertiary gradientBackground" style="background-image: url(./images/gradient-dark-blue-futuristic-digital-background.jpg);">
+    <div class="py-5">
       <h1 class="display-5 fw-bold">Gabriela Draghici</h1>
-      <br></br>
-      <p class="col-md-8 fs-4">What text do I put in here so it sounds nice and relevant? Do I include previous background or only current Bootcamp experience?</p>
+      <br></br> <!--space between header and text-->
+      <p class="col-md-12 fs-4">Front-end bootcamp student learning about and experimenting with HTML, CSS and Javascript. Current Portfolio created with Bootstrap tools.</p>
+      </div>
+ </div>
+</section>
+
+<!--Work section with Bootstrap cards-->
+
+<section class="container-fluid work">
+ <h2 class="#Work text-center">Work included in Bootcamp</h2>
+ <div class="work">
+  <div class="row">
+   <!-- Card 1 -->
+    <div class="card w-100 text-center col-lg-12 col-md-12 col-sm-12">
+      <img src="./images/project1-Horiseon.png" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Website Optimisation Challenge</h5>
+        <p class="card-text">Horiseon website existing code files refactored to increase the application visibility in search engines and made more accessible for people with disabilities such as the visually impaired. Index.html sections have been given semantic meaning by adding corresponding tags, and all images and graphics have received a description. Style.css file modified to reflect the changes in index.html and restructured to follow the html sequential order, while certain elements have been consolidated.</p>
+      </div>
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">HTML</li>
+        <li class="list-group-item">CSS Layout</li>
+        <li class="list-group-item">Box Model</li>
+      </ul>
+      <div class="card-body">
+        <a href="https://gabidragh.github.io/Module1Challenge-Website-Optimisation/" class="card-link">View Project</a>
+      </div>
      </div>
   </div>
+  
+<!-- <br></br> -->
+
+  <div class="row">
+    <!-- Card 2 -->
+    <div class="card w-50 h-100 text-center col-lg-6 col-md-6 col-sm-12">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+
+
+ <!-- Card 3 -->
+    <div class="card w-50 h-100 text-center col-lg-6 col-md-6 col-sm-12">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+ </div>
+
+<!-- <br></br> -->
+
+ <div class="row">
+    <!-- Card 4 -->
+    <div class="card w-50 h-100 text-center col-lg-6 col-md-6 col-sm-12">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Website Optimisation</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+
+
+ <!-- Card 5 -->
+    <div class="card w-50 h-100 text-center col-lg-6 col-md-6 col-sm-12">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">View Project</a>
+        </div>
+    </div>
+ </div>
+ <!-- <br></br>> -->
+
 </section>
+
+
+
+
+</body>
 
 <!--Bootstrap Popper and JS-->
 

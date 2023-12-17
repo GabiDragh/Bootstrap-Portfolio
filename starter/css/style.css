@@ -26,17 +26,25 @@
 
 
 
-/*Hero Section*/
+/*Hero/Jumbotron Section*/
 
-#jumbotron {
+.jumbotron {
     text-align: center;
+    color:aliceblue;
 }
 
-.hero-banner {
-    position: relative;
-    width: 80%;
-    background: url(./images/hero-banner4);
-    background-color: transparent !important;
+.gradientBackground {
+    background-repeat: no-repeat;
     background-size: cover;
-    z-index: 10;
+    height: auto;
+}
+
+/*Work Section*/
+
+/*.workSample {
+    padding: 20px 20px 20px 20px;
+}*/
+
+.row{
+    padding: 5px 10px 5px 10px;
 }
