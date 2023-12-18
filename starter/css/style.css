@@ -49,3 +49,14 @@ h2 {
 padding: 10px; /*images padding added so they don't touch the card border at the top*/
 border-radius: 3%; /*small radius added to match card rounded edges*/
 }
+
+/*Skills section*/
+
+.contentHeading {
+    margin: 20px;
+}
+
+.carousel-item { /*Carousel size and image too big, height changed to fit page*/
+    height: 750px;
+}
+
