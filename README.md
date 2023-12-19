@@ -27,6 +27,6 @@ Social media buttons code https://mdbootstrap.com/docs/standard/navigation/foote
 
 #### Project links
 
-Link to deployed application 
+Link to deployed application https://gabidragh.github.io/Bootstrap-Portfolio/
 
 ![Application Screenshot](screencapture-file-C-Users-dragh-Bootcamp-Bootstrap-Portfolio-starter-index-html-2023-12-19-01_58_59.png?raw=true "Application Screenshot")
