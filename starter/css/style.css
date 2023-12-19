@@ -64,6 +64,19 @@ border-radius: 3%; /*small radius added to match card rounded edges*/
     margin: 1.5rem;
 }
 
+/*Contact Me section*/
+
+.contactForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+    background: url(../images/email1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /*Footer section*/
 
 footer a {
@@ -77,4 +90,8 @@ footer a:hover {   /*footer hyperlink hover effect*/
 
 .btn:hover {
  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.24);
+}
+
+#footer {
+    background-color: #152158;
 }

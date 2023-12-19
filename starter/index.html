@@ -51,7 +51,7 @@
             <a class="nav-link" href="#Contact-Me">Contact Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link" href="https://docs.google.com/document/d/1dr6CLRsN9UVs6D4VhhovIOLXs2uKhxPI14kvi85w3jM/edit?usp=sharing">Resume</a>
           </li>
         </ul>
       </div>
@@ -59,7 +59,7 @@
   </nav>
   <!--End Navigation bar section-->
 
-<!--Hero/Jumbotron Section-->
+<!--Hero/Jumbotron/About Me Section-->
 
 <section class="container-fluid jumbotron" id="About-Me"> <!--Hero section including a background image (not ready to see my face on a webpage yet), header and text-->
  <div class="p-5 mb-4 bg-body-tertiary gradientBackground" style="background-image: url(./images/gradient-dark-blue-futuristic-digital-background.jpg);">
@@ -71,7 +71,6 @@
 </section> <!--End of Hero/Jumbotron section-->
 
 
-<!--About Me section-->
 
 <!--Work section with Bootstrap cards-->
 
@@ -230,10 +229,43 @@
   </div>
 </div> <!--End of skills section-->
 
+<!--/Contact Me section-->
 
+ <section id="Contact-Me">
+    <h2 class="text-center">CONTACT ME</h2>
+  <div class="container-fluid contactForm">
+     <div class="col-lg-3 col-md-3 col-sm-12">
+      <form>
+          <!-- <h3 class="formHeading">Get in touch</h3> -->
+          <div class="mb-3">
+             <label for="yourName">Your Name</label>
+             <input type="name" class="form-control" id="yourName" aria-describedby="nameHelp" placeholder="Enter Name Here">
+          </div>
+          <div class="mb-3">
+            <label for="yourName">Your Email</label>
+            <input type="email" class="form-control" id="yourEmail" aria-describedby="emailHelp" placeholder="Enter Email Here">
+         </div>
+         <div class="mb-3">
+            <label for="textArea" class="text-area" id="yourText">Leave me a message </label>
+            <textarea class="form-control" id="textArea" rows="2" area-describedby="textHelp" placeholder="Enter Message Here"></textarea>
+         </div>
+         <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+             Would you like to subscribe to my Newsletter?
+            </label>
+         </div>
+   
+         <div class="col-12">
+            <button class="btn btn-primary" type="submit">Send</button>
+         </div>
+      </form>
+     </div>
+  </div>
+ </section>
 <!--Footer Section-->
 
-<footer class="bg-body-tertiary text-center text-lg-center">
+<footer class="bg-body-tertiary text-center text-lg-center" id="footer">
     <div class="container-fluid" style="background-color:aliceblue"> <!--Start grid container-->
         <div class="row"> <!--Start Row-->
 
@@ -351,7 +383,7 @@
 
 <h5> &copy; 2023 Made with ❤️️ by Gabi Draghici</h5> <!--Copyright-->
 
-</footer>
+</footer> <!--Footer end-->
 
 </body>
 
