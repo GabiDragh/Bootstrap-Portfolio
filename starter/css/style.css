@@ -60,3 +60,21 @@ border-radius: 3%; /*small radius added to match card rounded edges*/
     height: 750px;
 }
 
+.credit {
+    margin: 1.5rem;
+}
+
+/*Footer section*/
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {   /*footer hyperlink hover effect*/
+  color: yellowgreen;
+  background-color:yellow;
+}
+
+.btn:hover {
+ box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.24);
+}
