@@ -29,4 +29,4 @@ Social media buttons code https://mdbootstrap.com/docs/standard/navigation/foote
 
 Link to deployed application 
 
-![Application Screenshot](screencapture-file-C-Users-dragh-Bootcamp-Bootstrap-Portfolio-starter-index-html-2023-12-19-01_37_17.png?raw=true "Application Screenshot")
+![Application Screenshot](screencapture-file-C-Users-dragh-Bootcamp-Bootstrap-Portfolio-starter-index-html-2023-12-19-01_58_59.png?raw=true "Application Screenshot")

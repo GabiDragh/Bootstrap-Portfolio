@@ -31,7 +31,7 @@
 .gradientBackground {
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.85;
+    opacity: 0.95;
     height: 300px; /*banner image height reduced as auto occupies too much space*/
 }
 
